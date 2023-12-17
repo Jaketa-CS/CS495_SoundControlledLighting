@@ -1,0 +1,35 @@
+pcm.!default {
+    type asym
+    playback.pcm "hw:0,0"
+    capture.pcm "mic"
+}
+
+pcm.mic1 {
+    type plug
+    slave {
+        pcm "hw:3,0"
+    }
+}
+
+pcm.mic2 {
+    type plug
+    slave {
+        pcm "hw:4,0"
+    }
+}
+
+pcm.mic3 {
+    type plug
+    slave {
+        pcm "hw:5,0"
+    }
+}
+
+pcm.mic4 {
+    type plug
+    slave {
+        pcm "hw:6,0"
+    }
+}
+
+

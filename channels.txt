@@ -1,0 +1,4 @@
+chan 3 - E orange
+chan 7 - SE blue
+chan 39 - N pale blue
+chan 40 - S white
